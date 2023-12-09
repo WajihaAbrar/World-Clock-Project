@@ -22,6 +22,28 @@ function updateTime() {
       "h:mm:ss [<small>]A[</small>]"
     );
   }
+
+  let cairoElement = document.querySelector("#cairo");
+  if (cairoElement) {
+    let cairoDateElement = cairoElement.querySelector(".date");
+    let cairoTimeElement = cairoElement.querySelector(".time");
+    let currentCairoElement = moment().tz("Africa/Cairo");
+    cairoDateElement.innerHTML = currentCairoElement.format("MMMM Do YYYY");
+    cairoTimeElement.innerHTML = currentCairoElement.format(
+      "h:mm:ss [<small>]A[</small>]"
+    );
+  }
+
+  let tokyoElement = document.querySelector("#tokyo");
+  if (tokyoElement) {
+    let tokyoDateElement = tokyoElement.querySelector(".date");
+    let tokyoTimeElement = tokyoElement.querySelector(".time");
+    let currentTokyoElement = moment().tz("Asia/Tokyo");
+    tokyoDateElement.innerHTML = currentTokyoElement.format("MMMM Do YYYY");
+    tokyoTimeElement.innerHTML = currentTokyoElement.format(
+      "h:mm:ss [<small>]A[</small>]"
+    );
+  }
 }
 
 function updateCity(event) {
