@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>World-Clock Project 🕰️</title>
+    <title>World-Clock Project ⏰</title>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -13,31 +13,43 @@
     />
   </head>
   <body>
-    <div class="container">
-      <h1>World Clock</h1>
-      <select>
-        <option value="">Choose a city...</option>
-        <option value="">London 🇬🇧</option>
-        <option value="">New York 🇺🇸</option>
-        <option value="">Australia 🇦🇺</option>
-      </select>
-      <div class="city">
-        <h2>Los Angeles 🇺🇸</h2>
-        <div class="date">August 15th 2002</div>
-        <div class="time">1:42:23 AM</div>
+    <div class="box">
+      <div class="container">
+        <h1>World Clock</h1>
+        <select>
+          <option value="">Select a city...</option>
+          <option value="">London 🇬🇧</option>
+          <option value="">New York 🇺🇸</option>
+          <option value="">Australia 🇦🇺</option>
+        </select>
+        <div class="city">
+          <div>
+            <h2>Los Angeles 🇺🇸</h2>
+            <div class="date">August 15th 2002</div>
+          </div>
+          <div class="time">1:42:23 <small>AM</small></div>
+        </div>
+
+        <div class="city">
+          <div>
+            <h2>Paris 🇫🇷</h2>
+            <div class="date">August 15th 2002</div>
+          </div>
+          <div class="time">1:42:23 <small>AM</small></div>
+        </div>
       </div>
+      <footer>
+        Coded by <strong>Wajiha Abrar</strong> and open-sourced on
+        <a
+          href="https://github.com/WajihaAbrar/World-Clock-Project"
+          target="_blank"
+          >GitHub</a
+        >🚀 hosted on
+        <a href="https://my-worldclock-project.netlify.app/" target="_blank"
+          >Netlify</a
+        >
+      </footer>
     </div>
-    <footer>
-      Coded by <span class="coder">Wajiha Abrar</span> and open-sourced on
-      <a
-        href="https://github.com/WajihaAbrar/World-Clock-Project"
-        target="_blank"
-        >GitHub</a
-      >🚀 hosted on
-      <a href="https://my-worldclock-project.netlify.app/" target="_blank"
-        >Netlify</a
-      >
-    </footer>
     <script src="javascript/index.js"></script>
   </body>
 </html>
