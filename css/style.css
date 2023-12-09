@@ -9,6 +9,9 @@ a,
 strong {
   color: blueviolet;
 }
+a {
+  text-decoration: none;
+}
 .box {
   max-width: 700px;
   height: 610px;
