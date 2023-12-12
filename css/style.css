@@ -13,20 +13,20 @@ a {
   text-decoration: none;
 }
 .box {
-  max-width: 620px;
-  height: 670px;
+  max-width: 610px;
+  height: 630px;
   margin: 5px auto;
-  padding: 25px 30px;
-  border-radius: 25px;
+  padding: 20px 15px;
+  border-radius: 10px;
   background: lavender;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .container {
-  max-width: 520px;
-  margin: 15px auto;
-  padding: 25px;
+  max-width: 530px;
+  margin: 10px auto;
+  padding: 20px;
   background: #ffc0d9;
-  border-radius: 25px;
+  border-radius: 20px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
